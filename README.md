@@ -1,5 +1,3 @@
 # zq-design
 
-This is the repository for the (currently hypothetical) programming language zq.
-
-Test
+This is the repository for design decisions regarding the (currently hypothetical) programming language zq.
