@@ -21,7 +21,7 @@ Most of my professional career, I've been cultivating opinions about the languag
 - ✅ _Unlike JavaScript_: [there is no need for `undefined` and `null`](type-system/undefined-or-null.md) (get rid of `undefined`)
 - ✅ _Unlike JavaScript_: [there is no need for `instanceof` and `typeof`](type-system/instanceof-or-typeof.md) (get rid of `typeof`)
 - ❌ _Like TypeScript_: [union types should be supported](type-system/union-types.md) (`string | number`)
-- ❌ _Like TypeScript_: [primitive literals should be supported as types, and may make enum types unnecessary](type-system/primitive-literals.md) (`type MyEnum = "VALUE1" | "VALUE2"`)
+- ❌ _Like TypeScript_: [primitive literals should be supported as types, and may make enum types unnecessary](type-system/literal-types.md) (`type MyEnum = "VALUE1" | "VALUE2"`)
 - ❌ _Like TypeScript_: [anonymous types should be supported](type-system/anonymous-types.md) (`{ field: string }`)
 - ❌ _Like TypeScript_: [tuple types should be supported](type-system/tuple-types.md) (`[number, string]`)
 - ❌ _Partially-Unlike Java_: [type variance should be supported](type-system/type-variance.md) (note: the TypeScript docs [mention](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html) that variance naturally emerges due to its structural type system)
