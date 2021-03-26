@@ -14,7 +14,7 @@ Most of my professional career, I've been cultivating opinions about the languag
 
 ## Type System
 
-- _Unlike TypeScript_: [**runtime type checks should be comprehensive**](type-system/runtime-checks.md)
+- _Unlike TypeScript_: [**the type system should exist at runtime**](type-system/runtime-checks.md) (in addition to compile-time)
 - _Unlike Java_: [generics should be known at runtime](type-system/runtime-generics.md)
 - _Unlike JavaScript_: [there is no need for `undefined` and `null`](type-system/undefined-or-null.md) (pick one)
 - _Unlike JavaScript_: [there is no need for `instanceof` and `typeof`](type-system/instanceof-or-typeof.md) (pick one)
