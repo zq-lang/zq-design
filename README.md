@@ -11,6 +11,7 @@ Most of my professional career, I've been cultivating opinions about the languag
 - _Unlike Java and JavaScript_: [parameter reassignment should be opt-in, not the default](syntax/parameter-reassignment.md)
 - _Like TypeScript_: [variable type specifiers should be after a colon](syntax/type-after-colon.md): `name: string`
 - _Unlike JavaScript_: [lines of code must end in a semicolon](syntax/semicolon.md)
+- _Like Scala_: [lazy values should have a simple syntax](syntax/lazy-values.md)
 
 ## Type System
 
@@ -28,6 +29,7 @@ Most of my professional career, I've been cultivating opinions about the languag
 - _Unlike Java_: [variables should explicitly state whether they allow `null` values](type-system/nullable-types.md): `SomeType | null`
 - _Unlike Java_: [comparing comparables with `<`/`>`/`<=`/`>=` should be allowed](type-system/comparable-operators.md)
 - _Like TypeScript_: [interfaces should not need to be explicitly implemented](type-system/interfaces-as-guards.md): they are just type guards
+- _Unlike JavaScript_: [automatic type coercion is not supported](type-system/type-coercion.md) (i.e. `if (notABool)` and `notABool && ...` are not allowed)
 
 ## Standard Library
 
@@ -35,6 +37,9 @@ Most of my professional career, I've been cultivating opinions about the languag
 - _Unlike JavaScript_: [comprehensive date/time library should be built in, with nanosecond precision](standard-library/date-time.md)
 - _Partially-Like Java_: [collections library should be very extensive](standard-library/collections.md) (and include arrays as part of the main collection types)
 - _Like Java_: [reflection should be available to analyze types at runtime](standard-library/reflection.md)
+- _Unlike Java_: [types should be able to define multiple equality or comparison schemes](standard-library/equator.md)
+- _Like Java and JavaScript_: [anything can be converted to a string](standard-library/to-string.md) (and the default behavior can be overridden with `toString()`)
+- _Like JavaScript (`toJSON`)_: [anything can be converted to a primitive](standard-library/to-primitive.md) (and the default behavior can be overridden with `toPrimitive()`)
 
 ## Package Manager
 
