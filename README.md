@@ -24,14 +24,14 @@ Most of my professional career, I've been cultivating opinions about the languag
 - _Unlike JavaScript_: [there is no need for `instanceof` and `typeof`](language-features/type-system/instanceof-or-typeof.md) (pick one)
 - _Like TypeScript_: [union types should be supported](language-features/type-system/union-types.md): `string | number`
 - _Like TypeScript_: [primitive literals should be supported as types, and may make enum types unnecessary](language-features/type-system/primitive-literals.md): `type MyEnum = "VALUE1" | "VALUE2"`
-- _Like TypeScript_: anonymous types should be supported (`{ field: string }`)
-- _Like TypeScript_: tuple types should be supported (`[number, string]`)
-- _Partially-Unlike Java_: type variance should be supported (note: the TypeScript docs [mention](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html) that variance naturally emerges due to its structural type system)
-- _Unlike JavaScript_: floating-point should be one of many options for numeric primitives
-- _Unlike Java_: fixed-size integer types should have unsigned counterparts (`int`/`uint`, `byte`/`ubyte`, etc.)
-- _Unlike Java_: variables should explicitly state whether they allow `null` values (`SomeType | null`)
-- _Unlike Java_: comparing comparables with `<`/`>`/`<=`/`>=` should be allowed
-- _Like TypeScript_: interfaces should not need to be explicitly implemented; they are just type guards
+- _Like TypeScript_: [anonymous types should be supported](language-features/type-system/anonymous-types.md): `{ field: string }`
+- _Like TypeScript_: [tuple types should be supported](language-features/type-system/tuple-types.md): `[number, string]`
+- _Partially-Unlike Java_: [type variance should be supported](language-features/type-system/type-variance.md) (note: the TypeScript docs [mention](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html) that variance naturally emerges due to its structural type system)
+- _Unlike JavaScript_: [floating-point should be one of many options for numeric primitives](language-features/type-system/floating-point.md)
+- _Unlike Java_: [fixed-size integer types should have unsigned counterparts](language-features/type-system/unsigned-integers.md): `int`/`uint`, `byte`/`ubyte`, etc.
+- _Unlike Java_: [variables should explicitly state whether they allow `null` values](language-features/type-system/nullable-types.md): `SomeType | null`
+- _Unlike Java_: [comparing comparables with `<`/`>`/`<=`/`>=` should be allowed](language-features/type-system/comparable-operators.md)
+- _Like TypeScript_: [interfaces should not need to be explicitly implemented](language-features/type-system/interfaces-as-guards.md): they are just type guards
 
 ### Standard Library
 
