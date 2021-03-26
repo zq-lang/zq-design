@@ -34,10 +34,11 @@ Most of my professional career, I've been cultivating opinions about the languag
 - _Unlike JavaScript (and Java)_: [arbitrary-precision integers and decimals should be included](standard-library/arbitrary-precision.md) (as primitives)
 - _Unlike JavaScript_: [comprehensive date/time library should be built in, with nanosecond precision](standard-library/date-time.md)
 - _Partially-Like Java_: [collections library should be very extensive](standard-library/collections.md) (and include arrays as part of the main collection types)
+- _Like Java_: [reflection should be available to analyze types at runtime](standard-library/reflection.md)
 
 ## Package Manager
 
-- _Unlike Java_: [a package manager (or at least central package repository) should be a first-class citizen](package-manager/built-in.md)
+- _Unlike Java_: [a package manager should be a first-class citizen](package-manager/built-in.md) (or at least central package repository)
 - _Unlike npm_: [each project should not have its own package repository](package-manager/central-repo.md): it should be centralized on the machine
 - _Like Node.js_: [files should be the base unit of code, with exports](package-manager/file-based.md) (not classes)
 - _Unlike Node.js_: [only named exports should be allowed in a file](package-manager/named-exports.md)
