@@ -32,7 +32,6 @@ Please open issues against this repository if you have any opinions to add, or i
 - _Like TypeScript_: tuple types should be supported (`[number, string]`)
 - _Partially-Unlike Java_: type variance should be supported
   (note: the TypeScript docs [mention](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html) that variance naturally emerges due to its structural type system)
-
 - _Unlike JavaScript_: floating-point should be one of many options for numeric primitives
 - _Unlike Java_: fixed-size integer types should have unsigned counterparts (`int`/`uint`, `byte`/`ubyte`, etc.)
 - _Unlike Java_: variables should explicitly state whether they allow `null` values (`SomeType | null`)
