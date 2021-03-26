@@ -53,3 +53,7 @@ Most of my professional career, I've been cultivating opinions about the languag
 
 - ❌ _Like Node.js_: [single-threaded languages are easier to grasp and less error-prone](misc/single-threaded.md)
 - ❌ _Unlike Java_: [it would be ideal to compile down to native code](misc/native-code.md) (fastest execution should be the goal)
+
+## FAQs
+
+- **But why do we need _another_ programming language?** OK you're probably right, but hear me out...
