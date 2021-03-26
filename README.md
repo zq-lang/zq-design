@@ -35,20 +35,20 @@ Most of my professional career, I've been cultivating opinions about the languag
 
 ### Standard Library
 
-- _Unlike JavaScript (and Java)_: arbitrary-precision integers and decimals should be included (as primitives)
-- _Unlike JavaScript_: comprehensive date/time library should be built in, with nanosecond precision
-- _Partially-Like Java_: collections library should be very extensive, and include arrays as part of the main collection types
+- _Unlike JavaScript (and Java)_: [arbitrary-precision integers and decimals should be included](language-features/standard-library/arbitrary-precision.md) (as primitives)
+- _Unlike JavaScript_: [comprehensive date/time library should be built in, with nanosecond precision](language-features/standard-library/date-time.md)
+- _Partially-Like Java_: [collections library should be very extensive](language-features/standard-library/collections.md) (and include arrays as part of the main collection types)
 
 ### Misc.
 
-- _Like Node.js_: single-threaded languages are easier to grasp and less error-prone
-- _Unlike Java_: it would be ideal to compile down to native code; fastest execution should be the goal
+- _Like Node.js_: [single-threaded languages are easier to grasp and less error-prone](language-features/misc/single-threaded.md)
+- _Unlike Java_: [it would be ideal to compile down to native code](language-features/misc/native-code.md): fastest execution should be the goal
 
 ---
 
 ## Package Manager
 
-- _Unlike Java_: a package manager (or at least central package repository) should be a first-class citizen
-- _Unlike npm_: each project should not have its own package repository; it should be centralized on the machine
-- _Like Node.js_: files should be the base unit of code, with exports (not classes)
-- _Unlike Node.js_: only named exports should be allowed in a file
+- _Unlike Java_: [a package manager (or at least central package repository) should be a first-class citizen](package-manager/built-in.md)
+- _Unlike npm_: [each project should not have its own package repository](package-manager/central-repo.md): it should be centralized on the machine
+- _Like Node.js_: [files should be the base unit of code, with exports](package-manager/file-based.md) (not classes)
+- _Unlike Node.js_: [only named exports should be allowed in a file](package-manager/named-exports.md)
