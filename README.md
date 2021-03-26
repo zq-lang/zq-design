@@ -2,9 +2,7 @@
 
 This is the repository for design decisions regarding the (currently hypothetical) programming language zq.
 
-Most of my professional career, I've been cultivating opinions about the languages I work in (generally Java, JavaScript, and TypeScript).
-The idea for the zq language came from my search for the "the perfect programmling language".
-Please open issues against this repository if you have any opinions to add, or if you disagree with one of my design decisions.
+Most of my professional career, I've been cultivating opinions about the languages I work in (generally Java, JavaScript, and TypeScript). The idea for the zq language came from my search for the "the perfect programmling language". Please open issues against this repository if you have any opinions to add, or if you disagree with one of my design decisions.
 
 ---
 
@@ -30,8 +28,7 @@ Please open issues against this repository if you have any opinions to add, or i
 - _Like TypeScript_: primitive literals should be supported as types, and may make enum types unnecessary (`type MyEnum = "VALUE1" | "VALUE2"`)
 - _Like TypeScript_: anonymous types should be supported (`{ field: string }`)
 - _Like TypeScript_: tuple types should be supported (`[number, string]`)
-- _Partially-Unlike Java_: type variance should be supported
-  (note: the TypeScript docs [mention](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html) that variance naturally emerges due to its structural type system)
+- _Partially-Unlike Java_: type variance should be supported (note: the TypeScript docs [mention](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html) that variance naturally emerges due to its structural type system)
 - _Unlike JavaScript_: floating-point should be one of many options for numeric primitives
 - _Unlike Java_: fixed-size integer types should have unsigned counterparts (`int`/`uint`, `byte`/`ubyte`, etc.)
 - _Unlike Java_: variables should explicitly state whether they allow `null` values (`SomeType | null`)
