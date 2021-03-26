@@ -12,13 +12,14 @@ Most of my professional career, I've been cultivating opinions about the languag
 - _Like TypeScript_: [variable type specifiers should be after a colon](syntax/type-after-colon.md): `name: string`
 - _Unlike JavaScript_: [lines of code must end in a semicolon](syntax/semicolon.md)
 - _Like Scala_: [lazy values should have a simple syntax](syntax/lazy-values.md)
+- _Unlike JavaScript_: [`const` variables do not need to be immediately initialized](syntax/const-initialization.md)
 
 ## Type System
 
 - _Unlike TypeScript_: [**the type system should exist at runtime**](type-system/runtime-checks.md) (in addition to compile-time)
 - _Unlike Java_: [generics should be known at runtime](type-system/runtime-generics.md)
-- _Unlike JavaScript_: [there is no need for `undefined` and `null`](type-system/undefined-or-null.md) (pick one)
-- _Unlike JavaScript_: [there is no need for `instanceof` and `typeof`](type-system/instanceof-or-typeof.md) (pick one)
+- _Unlike JavaScript_: [there is no need for `undefined` and `null`](type-system/undefined-or-null.md) (get rid of `undefined`)
+- _Unlike JavaScript_: [there is no need for `instanceof` and `typeof`](type-system/instanceof-or-typeof.md) (get rid of `typeof`)
 - _Like TypeScript_: [union types should be supported](type-system/union-types.md): `string | number`
 - _Like TypeScript_: [primitive literals should be supported as types, and may make enum types unnecessary](type-system/primitive-literals.md): `type MyEnum = "VALUE1" | "VALUE2"`
 - _Like TypeScript_: [anonymous types should be supported](type-system/anonymous-types.md): `{ field: string }`
